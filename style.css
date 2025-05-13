@@ -7,14 +7,14 @@ body {
   background-color: #121212;
   color: #f0f0f0;
   line-height: 1.6;
-  padding-top: 120px; /* espaço para o menu fixo */
+  padding-top: 100px; /* espaço para o menu fixo */
   margin: 0;
 }
 
 .container {
   max-width: 960px;
   margin: auto;
-  padding: 3rem 2rem; /* Aumenta o espaçamento de cima e de baixo para 3rem, e mantém o 2rem nas laterais */
+  padding: -0.5rem 2rem; /* Aumenta o espaçamento de cima e de baixo para 3rem, e mantém o 2rem nas laterais */
 }
 
 /* Menu fixo */
