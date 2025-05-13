@@ -39,10 +39,21 @@ nav h1 {
   color: #00ffcc;
 }
 
-a {
+.github-link {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #24292e;
+  color: #fff;
   text-decoration: none;
-  color: #00ffcc;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
 }
+
+.github-link:hover {
+  background-color: #00ffcc;
+}
+
 .menu {
   list-style: none;
   display: flex;
