@@ -20,11 +20,12 @@ body {
 /* Menu fixo */
 nav {
   position: fixed;
-  top: 0;
+  top: -10px;
   width: 100%;
   background-color: #1e1e1e;
   border-bottom: 1px solid #333;
   z-index: 1000;
+  padding: 0.5rem 0; /* Ajusta o padding para reduzir a altura do menu */
 }
 
 .nav-container {
